@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 30px;
+    position: relative;
+}
+
+.linkWrapper {
+    display: inline-block;
+    padding-top: 13px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000ba8;
+    text-align: center;
+    color: #000ba8;
+}
+
+.linkWrapper:hover {
+    transform: rotate(30deg) scale(1.1);
+    z-index: 1;
+    transition: 1s;
+}

@@ -1,0 +1,108 @@
+@import "variables";
+
+.first-block {
+    height: 100vh;
+    background-image: linear-gradient($first-block-background-color, $first-block-background-color), url(../img/img.png);
+}
+
+.image-background-settings{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 270px;
+    height: 100.95px;
+    background-image:url(../img/logo.png);
+}
+
+.image-block-1{
+    background-image:url(../img/work_1.png);
+}
+.image-block-2{
+    background-image:url(../img/work_2.png);
+}
+.image-block-3{
+    background-image:url(../img/work_3.png);
+}
+.image-block-4{
+    background-image:url(../img/work_4.png);
+}
+.image-block-5{
+    background-image:url(../img/work_5.png);
+}
+.image-block-6{
+    background-image:url(../img/work_6.png);
+}
+.image-block-7{
+    background-image:url(../img/work_7.png);
+}
+.image-block-8{
+    background-image:url(../img/work_8.png);
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+.first-icon{
+    background-image:url(../img/icon_1.png);
+}
+
+.second-icon{
+    background-image:url(../img/icon_2.png);
+}
+
+.third-icon{
+    background-image:url(../img/icon_3.png);
+}
+
+.fourth-icon{
+    background-image:url(../img/icon_4.png);
+}
+
+.fifth-icon{
+    background-image:url(../img/icon_5.png);
+}
+
+.sixth-icon{
+    background-image:url(../img/icon_6.png);
+}
+
+.account-photo{
+    margin-bottom: 30px;
+    &-1{
+        background-image:url(../img/account_photo_1.png);
+    }
+    &-2{
+        background-image:url(../img/account_photo_2.png);
+    }
+    &-3{
+        background-image:url(../img/account_photo_3.png);
+    }
+    &-4{
+        background-image:url(../img/account_photo_4.png);
+    }
+}
+
+.links{
+    width: 100%;
+    height: 100%;
+}
+
+.facebook-link{
+    background-image:url(../img/facebook_icon.png);
+}
+.twitter-link{
+    background-image:url(../img/twitter_icon.png);
+}
+.linkedin-link{
+    background-image:url(../img/linkedin_icon.png);
+}
+
+.carousel-pic{
+    background-image: url(../img/bg-2.png);
+}
+

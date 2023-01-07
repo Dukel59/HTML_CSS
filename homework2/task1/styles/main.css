@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    text-align: center;
+    padding: 47px;
+}
+
+.title {
+    margin: 0px auto 34px auto;
+    width: 252px;
+    height: 42px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    color: #212A2F;
+}
+
+.text {
+    margin: 0px auto 50px auto;
+    width: 823px;
+    height: 48px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    color: #212A2F;
+}
+
+.signUpContainer {
+    margin: 0px auto 24px auto;
+}
+
+.textContainer {
+    border: 0px;
+    border-bottom: 2px solid;
+    border-radius: 0px;
+
+    width: 588px;
+    height: 48px;
+
+    padding-left: 50px;
+    margin-right: 12px;
+
+    background: #FFFFFF;
+}
+
+.signUpButton {
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+}
+
+.secondaryText {
+    display: inline;
+    margin: 0 5px 0 5px;
+    width: 286px;
+    height: 14px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #74797C;
+}
+
+.link {
+    text-decoration: none;
+}

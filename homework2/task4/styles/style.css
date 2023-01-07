@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0px auto;
+    text-align: center;
+    padding: 64px 150px;
+    width: 1920px;
+height: 1559px;
+
+background: #FAF9F9;
+}
+
+.title{
+    margin: 0px auto 64px auto;
+
+    font-family: 'Spectral SC';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 43px;
+
+text-transform: uppercase;
+
+color: #424242;
+}
+
+.grid{
+    margin: 0px auto 77px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-column-gap: 20px;
+
+    grid-template-areas: 
+    "A A A A   A A A A   B B B B  C C C C"
+    "A A A A   A A A A   B B B B  C C C C"
+    "A A A A   A A A A   F F F F  F F F F"
+    "D D D D   E E E E   F F F F  F F F F"
+    "D D D D   E E E E   F F F F  F F F F"
+    "D D D D   E E E E   F F F F  F F F F";
+}
+
+.gridElement{
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.imgWrapper1{
+    grid-area: A;
+    width: 800px;
+    height: 800px;
+}
+.imgWrapper2{
+    grid-area: B;
+    width: 390px;
+    height: 390px;
+}
+.imgWrapper3{
+    grid-area: C;
+    width: 390px;
+    height: 390px;
+}
+.imgWrapper4{
+    grid-area: D;
+    width: 390px;
+    height: 390px;
+}
+.imgWrapper5{
+    grid-area: E;
+    width: 390px;
+    height: 390px;
+}
+.imgWrapper6{
+    grid-area: F;
+    width: 800px;
+    height: 800px;
+}
+
+.button{
+    margin: 0px auto;
+    text-decoration: none;
+
+    background: linear-gradient(#976464, #CFA5A5);
+    padding: 13px 45px;
+
+    border-radius: 49px;
+
+    font-family: 'Spectral SC';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}

@@ -1,0 +1,24 @@
+@import "variables";
+
+.first-section-button{
+    width: 100%;
+    padding: 26px 0px;
+    background-color: $button_normal_color;
+    border: none;
+
+    &:hover{
+        background-color: $color_accent;
+    }
+
+    &:active{
+        background-color: $button_normal_color;
+        box-shadow: $button_active_box_shadow;
+    }
+
+    @media (max-width: 992px) {
+        .button-section{
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.title {
+    margin: 0px auto 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.line {
+    margin: 0px auto 40px;
+    width: 170px;
+    height: 0px;
+    border: 0px;
+    border-bottom: 1px solid #EC7979;
+}
+
+.mainText {
+    margin: 0px auto 110px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+
+.grid {
+    margin: 0px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.gridElement {
+    text-align: center;
+    transition: 2s;
+}
+
+.gridCircle {
+    margin: 0px auto 39px;
+    width: 100px;
+    padding: 7px;
+    height: 100px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.firstIcon {
+    background-image: url(../media/bulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.secondIcon {
+    background-image: url(../media/keyboard.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ThirdIcon {
+    background-image: url(../media/flash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gridTitle {
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.gridMainText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.gridElement:hover{
+    transform: scale(1.15);
+}

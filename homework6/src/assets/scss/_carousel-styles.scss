@@ -1,0 +1,56 @@
+.carousel {
+    margin-bottom: 50px;
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        max-width: 50%;
+        background-color: #5C3249;
+    }
+    &-pic{
+        height: 490px;
+        flex-grow: 1;
+        max-width: 50%;
+        width: 200%;
+    }
+    
+    &-indicators {
+        transform: translateY(60px);
+
+        & li {
+            width: 14px;
+            height: 14px;
+            border-radius: 100%;
+            background-color: $white_color;
+            border: 1px solid #5C3249;
+
+            &.active{
+                background-color:#5C3249;
+            }
+
+            &:active{
+                background-color:#5C3249;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+
+    .carousel-content{
+        flex-direction: column;
+    }
+    .carousel-item{
+        flex-direction: column;
+    }
+    .carousel-text {
+        padding: 50px;
+        max-width: 100%;
+    }
+    .carousel-pic{
+        max-width: 100%;
+    }
+}

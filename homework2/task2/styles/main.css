@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 79px 0px 88px 0px;
+    text-align: center;
+}
+
+.title {
+    width: 229px;
+    height: 42px;
+    margin: 0px auto 9px auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.mainText {
+    width: 496px;
+    height: 40px;
+
+    margin: 0px auto 26px auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.inputGrid {
+    display: grid;
+    justify-content: space-between;
+    margin: 0px auto 23px auto;
+    width: 366px;
+
+    grid-auto-rows: minmax(39px, auto);
+
+    grid-row-gap: 18px;
+
+}
+
+.gridElement {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding-left: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #A0A0A0;
+}
+
+.inputGrid :last-child {
+    grid-column-start: span 2;
+}
+
+.button {
+
+    padding: 7px 25px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+
+    text-decoration: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
