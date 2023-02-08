@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(255, 217, 244);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.block{
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 15px;
+    background-color:rgba(255, 255, 255);
+}
+.header{
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.month{
+    color: rgb(212, 212, 212);
+    margin-bottom: 10px;
+}
+.conditions{
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.conditions:last-of-type{
+    margin-bottom: 20px;
+}
+.button{
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius:10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.firstButton{
+    background-color: rgb(211, 47, 101);
+}
+.firstHeader{
+    border-bottom: 3px solid rgb(211, 47, 101);
+}
+.firstBlock:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.firstButton:hover{
+    background-color:rgb(209, 12, 77);
+}
+
+.secondButton{
+    background-color:rgb(235, 163, 54);
+}
+.secondHeader{
+    border-bottom: 3px solid rgb(235, 163, 54);
+}
+.secondBlock:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.secondButton:hover{
+    background-color:rgb(223, 137, 9);
+}
+
+.thirdButton{
+    background-color:rgb(44, 81, 184);
+}
+.thirdHeader{
+    border-bottom: 3px solid rgb(44, 81, 184);
+}
+.thirdBlock:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.thirdButton:hover{
+    background-color:rgb(8, 55, 185);
+}
+
+.fourthButton{
+    background-color:rgb(72, 189, 61);
+}
+.fourthHeader{
+    border-bottom: 3px solid rgb(72, 189, 61);
+}
+.fourthBlock:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.fourthButton:hover{
+    background-color: rgb(22, 192, 7);
+}

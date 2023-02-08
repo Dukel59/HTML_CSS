@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    background-color: rgba(235, 235, 235, 0.787);
+    padding: 30px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.text{
+    margin-bottom: 15px;
+}
+.Line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.787);
+    margin-bottom: 20px;
+}
+.comment{
+    color: rgba(2, 15, 136, 0.787);
+    font-weight: bold;
+    vertical-align: super;
+}
+.subtext{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.subtext:last-of-type{
+    margin-bottom: 0px;
+}

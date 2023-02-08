@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 30px;
+}
+.question{
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+}
+.question:first-of-type{
+    margin-top: 0px;
+}
+.question:last-of-type{
+    
+    margin-bottom: 0px;
+}
+.productsWrapper{
+    list-style-type: none;
+    align-items: center;
+    border-bottom: 2px solid rgb(150, 150, 150);
+    padding: 5px;
+}
+.product{
+    display: inline-block;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.productImg{
+    height: 100px;
+    width: 100px;
+}
+
+.text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

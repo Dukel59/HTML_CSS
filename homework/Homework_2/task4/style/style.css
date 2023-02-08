@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.siteFooter{
+    background-color: rgb(21, 52, 92);
+    color: #fff;
+    padding: 40px;
+}
+.secondFooter{
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    text-align: center;
+} 
+.firstColumn{
+    display: inline-block; 
+    padding: 30px;
+    width: 32%;
+}
+.thirdColumn{
+    display: inline-block;
+    padding: 30px;
+    width: 32%;
+    vertical-align: 15px;
+}
+.secondColumn{
+    display: inline-block;
+    padding: 30px;
+    width: 32%;
+}
+
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menuText{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+.menuLink{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.iconDiv{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fbDiv{
+    background-image:url(../media/fb_gray.png);
+}
+.instaDiv{
+    background-image:url(../media/insta_gray.png);
+}
+.youtubeDiv{
+    background-image:url(../media/youtube_gray.png);
+}
+.menuIconItem{
+    display: inline-block;
+    margin-right: 20px;
+}
+.menuIconItem:last-child{
+    margin-right: 0;
+}
+.menuLink:hover{
+    text-decoration: underline;
+    color:#fff;
+}
+
+.fbDiv:hover{
+    background-image:url(../media/fb.png);
+}
+.instaDiv:hover{
+    background-image:url(../media/insta.png);
+}
+.youtubeDiv:hover{
+    background-image:url(../media/youtube.png);
+}
+.text{
+    font-size: 14px;
+}

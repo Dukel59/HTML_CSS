@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="" class="logo">
+                <span class="textLogo">Lorem Site</span>
+            </a>
+            <ul class="menu">
+                <li class="menuItem">
+                    <a href="" class="menuLink">News</a>
+                </li>
+                <li class="menuItem">
+                    <a href="" class="menuLink">Events</a>
+                </li>
+                <li class="menuItem">
+                    <a href="" class="menuLink">Courses</a>
+                </li>
+                <li class="menuItem">
+                    <a href="" class="menuLink">Jobs</a>
+                </li>
+                <li class="menuItem">
+                    <a href="" class="menuLink">Tests</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="containerTwo">
+            <div class="divText">
+                <h2 class="textHeader">What is Lorem Ipsum?</h2>
+                <div id="currentTime"></div>
+                <script>
+                    function zero(value){
+                        if(value<10){
+                            value='0'+value;
+                        }
+                        return value;
+                    }
+                    function curTime(){
+                        let currentDateTime = new Date();
+                        let day = zero(currentDateTime.getDate());
+                        let month = zero(currentDateTime.getMonth()+1);
+                        let year = zero(currentDateTime.getUTCFullYear());
+                        let hour = zero(currentDateTime.getHours());
+                        let minutes = zero(currentDateTime.getMinutes());
+            
+                        return day+'/'+month+'/'+ year +' '+ hour+':'+minutes;
+                    }
+                    document.getElementById('currentTime').innerHTML = curTime();
+                </script>
+                <img class="image" src="media/1.png" alt="">
+                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="divEvents">
+                <table class="table" rules = "none">
+                    <thead class="tableHead">
+                        <tr>
+                            <th colspan="2">Events</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tableBody">
+                        <tr class="firstRow">
+                            <td>
+                                <a class="iconLink" href=""><div class="icon first"></div></a>
+                            </td>
+                            <td>
+                                <a class="tableText" href="">Pellentesque habitant morbi tristique senectus et netus et.</a>
+                            </td>
+                        </tr>
+                        <tr class="secondRow">
+                            <td>
+                                <a class="iconLink" href=""><div class="icon second"></div></a>
+                            </td>
+                            <td>
+                                <a href="" class="tableText">Phasellus malesuada enim et nisl tincidunt, id semper nisl vehicula.</a>
+                            </td>
+                        </tr>
+                        <tr class="thirdRow">
+                            <td>
+                                <a class="iconLink" href=""><div class="icon third"></div></a>
+                            </td>
+                            <td>
+                                <a href="" class="tableText">Sed quam nulla, finibus in placerat in, aliquet ut turpis.</a>
+                            </td>
+                        </tr>
+                        <tr class="fourthRow">
+                            <td>
+                                <a class="iconLink" href=""><div class="icon first"></div></a>
+                            </td>
+                            <td>
+                                <a href="" class="tableText">Praesent semper finibus eros eget maximus. Vivamus ac dapibus diam.</a>
+                            </td>
+                        </tr>
+                        <tr class="fifthRow">
+                            <td>
+                                <a class="iconLink" href=""><div class="icon second"></div></a>
+                            </td>
+                            <td>
+                                <a href="" class="tableText">Aliquam nec magna et nisi blandit semper eu a justo.</a>
+                            </td>
+                        </tr>
+                        <tr class="sixthRow">
+                            <td>
+                                <a class="iconLink" href=""><div class="icon third"></div></a>
+                            </td>
+                            <td>
+                                <a href="" class="tableText">Integer vel massa massa. Pellentesque habitant morbi tristique senectus et netus et.</a>
+                            </td>
+                        </tr>
+                    </tbody> 
+                </table>
+                <p class="eventsText">Donec quis turpis fermentum ante venenatis aliquam. Fusce non eros sit amet purus finibus feugiat vel id massa. Curabitur facilisis augue in velit mattis scelerisque.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

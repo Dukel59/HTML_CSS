@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 15px;
+    background-color: #ececec;
+}
+.firstTitle{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.secondTitle{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.text{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.formulaWrapper{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.formula{
+    display: inline-block;
+    padding: 2px;
+    background-color:#ff8888;
+}
+.setChar{
+    font-style: italic;
+    font-weight: bold;
+    color: #921f1f;
+}
